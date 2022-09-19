@@ -11,11 +11,6 @@ from collections import defaultdict
 import numpy as np
 
 
-
-
-
-
-
 #preprocess
 def preprocess(lines):
     
