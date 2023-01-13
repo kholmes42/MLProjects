@@ -8,5 +8,5 @@ Classfication: Accuracy, Precision, Recall, F1, AUC, Confusion Matrix
 If only simple model being trained -> Train Test Split
 If multiple models or hyperparameter tuning required -> Cross validation techniques (watch for imbalanced classes)
 
-In time series domain, ensure walkforward CV is used to prevent leakage. When dealing with small dataset can use Leave-one-out CV.
+In time series domain, ensure walkforward CV is used to prevent data leakage. When dealing with small dataset can use Leave-one-out CV.
 
