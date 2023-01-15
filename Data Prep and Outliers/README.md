@@ -1,6 +1,6 @@
 
 ## Data Prep
-Many ML models work better when features are on same scale. Technique's used involve standardization and scaling. Important to not let leakage of testing data impact data prep stage. Also requires what to do with missing data.
+Many ML models work better when features are on same scale. Technique's used involve standardization and scaling. Important to not let leakage of testing data impact data prep stage. Also requires decisions on what to do with missing data.
 
 **Scaling:** Involves bounding/converting feature values to between predifined ranges (only can use if these naturally exist). For example map values to between 0 and 1.
 
