@@ -19,7 +19,7 @@ Novelty datapoints involve anomalous data coming in during testing or production
 
 **Isolation Forest:** Random Forest implementation of random splits on features for each data point, if it only takes a few splits to put a sample data point in a leaf node then that means it is easy to separate it from the dataset (potentially an outlier).
 
-**Elliptic Envelope:** Fit Gaussian distribution to dataset using robust covariance, data points in tails of distribution can be considered outliers (assumes data is normally distribute).
+**Elliptic Envelope:** Fit Gaussian distribution to dataset using robust covariance, data points in tails of distribution can be considered outliers (assumes data is normally distributed).
 
 
 
