@@ -13,7 +13,7 @@ Many ML models work better when features are on same scale. Technique's used inv
 
 Outlier datapoints involve anomalous data in training phase. Certain models can be severly impacted by outliers in data which will impact model performance. Run algorithms to detect these points prior to training, then work to understand what is causing them (i.e. false data, true data, one off, possible repeated?) and what to do about them (drop the datapoints, winsorize the datapoints, etc.).
 
-Novelty datapoints involve anomalous data coming in during testing or production phases of the model. Must determine if they the model is appropriate to be run on them if they were never really encountered during training.
+Novelty datapoints involve anomalous data coming in during testing or production phases of the model. Must determine if the model is appropriate to be run on them if they were never truly encountered during training.
 
 **Local Outlier Factor:** Run a KNN to determine comparison in distance between data points and the average distance of all data points. Data points that have far average distance to all data points are outliers.
 
