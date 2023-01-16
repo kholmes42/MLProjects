@@ -7,4 +7,4 @@ Ensemble learning combines a series of learners to make a final prediction. Typi
 
 **Random Forest:** Use a sequence of decision trees to form an ensemble. Individual learners are trained on bootstrapped data and each tree only uses a random subset of all available features. This technique decorrelates individual trees reducing variance of overall prediction.
 
-**Gradient Boosted Trees:** Use a sequence of decision trees to form an ensemble where each subsequent tree is trained to learn from error made on previous trees. GB Trees typically perform well on tabular datasets and are often best performing blackbox model.
+**Gradient Boosted Trees:** Use a sequence of decision trees to form an ensemble where each subsequent tree is trained to learn from errors made on previous trees. GB Trees typically perform well on tabular datasets and are often best performing blackbox model.
