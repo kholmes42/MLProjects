@@ -1,5 +1,5 @@
 
-Ensemble learning combines a series of learners to make a final prediction. Typically weaker learners are used as ensembles (specifically decision trees/stumps) but any model can be used. This allows for ensembles to learn non-linear decision boundaries.
+Ensemble learning combines a series of learners to make a final prediction. Typically weaker learners are used in ensembles (specifically decision trees/stumps) but any model can be used. This allows for ensembles to learn non-linear decision boundaries.
 
 **Bagged Forest:** Use a sequence of decision trees to form an ensemble. Individual learners are trained using bootstrapped data (repeated sampling with replacement from training dataset). Final prediction is average of individual trees.
 
