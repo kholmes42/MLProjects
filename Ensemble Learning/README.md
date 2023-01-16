@@ -3,7 +3,7 @@ Ensemble learning combines a series of learners to make a final prediction. Typi
 
 **Bagged Forest:** Use a sequence of decision trees to form an ensemble. Individual learners are trained using bootstrapped data (repeated sampling with replacement from training dataset). Final prediction is average of individual trees.
 
-**Extra Trees:** Use a sequence of decision trees to form an ensemble. Splits on the individual trees are performed randomly instead of greedily. This means training is much faster and the overall model has very low variance.
+**Extra Trees Forest:** Use a sequence of decision trees to form an ensemble. Splits on the individual trees are performed randomly instead of greedily. This means training is much faster and the overall model has very low variance.
 
 **Random Forest:** Use a sequence of decision trees to form an ensemble. Individual learners are trained on bootstrapped data and each tree only uses a random subset of all available features. This technique decorrelates individual trees reducing variance of overall prediction.
 
