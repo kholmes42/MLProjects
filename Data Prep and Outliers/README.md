@@ -6,7 +6,7 @@ Many ML models work better when features are on same scale. Technique's used inv
 
 **Standardization:** Convert feature values to standard normal distribution (mean of 0 and unit variance).
 
-**Missing Data:** Depending on amount of missing data, can impute (use regression or average of feature value to fill in missing) if not too many, drop if way too much is missing or very small amount is missing.
+**Missing Data:** Depending on amount of missing data, can impute (use regression or average of feature value to fill in missing) if not too many, drop if way too much is missing.
 
 
 ## Outliers & Novelty
