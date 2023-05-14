@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri May 12 20:46:31 2023
-
+This module loads model and prepares output of weeks homework.
 @author: kholm
 """
 
