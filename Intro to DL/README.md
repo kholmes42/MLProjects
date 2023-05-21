@@ -1,4 +1,4 @@
-This folder follows along with the homeworks for the Coursera Boulder Colorado Introduction to Deel Learning Course.
+This folder follows along with the homeworks for the Coursera Boulder Colorado Introduction to Deep Learning Course.
 
 ## Convolutional Neural Networks (CNN)
 
