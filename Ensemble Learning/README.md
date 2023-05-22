@@ -13,7 +13,7 @@ Ensemble learning combines a series of learners to make a final prediction. Typi
 ## End-to-End XGBoost Walkthrough
 This end-to-end walkthrough covers multiple aspects of a data science problem, in the context of a binary classification problem using a XGBoost Classifier.
 
-The problem involves classifying survey respondents into roles of either 'Software Engineer' or 'Data Scientist'. For this problem I use a 14 item featureset. The features contain a mix of string and numeric datatypes, and involves some preprocessing inorder to get it into a working format. This includes encoding categorical reponses as well as parsing string entries and converting into numeric form.
+The problem involves classifying survey respondents into roles of either 'Software Engineer' or 'Data Scientist'. For this problem I use a 14 item featureset. The features contain a mix of string and numeric datatypes, and involves some preprocessing inorder to get it into a working format. This includes encoding categorical reponses as well as parsing string entries and converting them into a numeric form.
 
 #### EDA:
 To begin, I split the data into training and testing datasets, the training dataset will subsequently be used in a cross validation (CV) approach to model training. First we notice a slight class imbalance, but nothing too extreme.
@@ -32,7 +32,6 @@ I run a 5-fold CV on the training data to train an XGBoost model with multiple p
 
 The below charts show the confusion matrix, precision/recall graph and AUC graph for the testing data. The metric used for evaluation is F1-score, and the final model has a score of about 0.71 on the testing data.
 
-
 ![plot](https://github.com/kholmes42/MLProjects/blob/main/imgs/metrics.png)
 
 #### Model Interpretability:
@@ -47,6 +46,6 @@ PDPs show the impact of utilizing the trained model but altering a feature value
 
 ![plot](https://github.com/kholmes42/MLProjects/blob/main/imgs/pdp.png)
 
-
+SHAP values help gain understanding into the directional impact of feature values on the outcome. In the chart below, values to the right indicate the response is more likely to be a software engineer, while values to the left indicate the response is more likely to be a data scientist. Red indicates the value is relatively high compared to other values of the feature and blue indicates it is relatively low. As expected, people who indicated R experience and Math backgrounds are more likely to be classified as data scientists. From the below we also get a small indication that data scientists may have higher compensation. As we move to the bottom of the chart, the feature values are less dispersed and offer less of an impact on the final output classification.
 
 ![plot](https://github.com/kholmes42/MLProjects/blob/main/imgs/shap.png)
