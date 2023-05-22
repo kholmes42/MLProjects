@@ -26,7 +26,7 @@ I also examine the heatmap of feature correlations to spot any intuitive relatio
 
 #### Training/Testing:
 
-I run a 5-fold CV on the training data to train an XGBoost model with multiple parameters. Below is the learning curve for the model. This shows how the model training/validation error changes with training data size. It shows us that the validation error is improving as we add more data observations, but the rate of improvement slows down after 1500 observations. The gap between training and validation is not large which suggests that the training process has worked well.
+I run a 5-fold GridSearch CV on the training data to train an XGBoost model with multiple parameters. Below is the learning curve for the model. This shows how the model training/validation error changes with training data size. It shows us that the validation error is improving as we add more data observations, but the rate of improvement slows down after 1500 observations. The gap between training and validation is not large which suggests that the training process has worked well.
 
 ![plot](https://github.com/kholmes42/MLProjects/blob/main/imgs/learncurve.png)
 
