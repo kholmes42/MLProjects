@@ -44,7 +44,7 @@ Feature importance is a global metric that allows us to examine what features ar
 
 PDPs show the impact of utilizing the trained model but artificially altering a feature value in the dataset and holding others constant. Below we plot the PDP for Education, Age and Experience. The first plot suggests that as education increases, the outcome is more likely to be a data scientist. Frequently higher education is required to become a data scientist so this likely makese sense. In the second plot we do not see much of a relationship. Finally, in the third plot, we find that as experience increases, it is more likely that the person is a software engineer. It is harder to gather an explanation for this last one, however it is possible that data scientist is still a relatively new term so there are people with less experience with that job title.
 
-![plot](https://github.com/kholmes42/MLProjects/blob/main/imgs/pdp.png)
+![plot](https://github.com/kholmes42/MLProjects/blob/main/imgs/pdp2.png)
 
 SHAP values help gain understanding into the directional impact of feature values on the outcome. In the chart below, values to the right indicate the response is more likely to be a software engineer, while values to the left indicate the response is more likely to be a data scientist. Red indicates the value is relatively high compared to other values of the feature and blue indicates it is relatively low. As expected, people who indicated R experience and Math backgrounds are more likely to be classified as data scientists. From the below we also get a small indication that data scientists may have higher compensation. As we move to the bottom of the chart, the feature values are less dispersed and offer less of an impact on the final output classification.
 
