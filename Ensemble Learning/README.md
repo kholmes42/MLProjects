@@ -42,7 +42,7 @@ Feature importance is a global metric that allows us to examine what features ar
 
 ![plot](https://github.com/kholmes42/MLProjects/blob/main/imgs/featimp.png)
 
-PDPs show the impact of utilizing the trained model but altering a feature value in the dataset and holding others constant. Below we plot the PDP for Education, Age and Experience. The first plot suggests that as education increases, the outcome is more likely to be a data scientist. Frequently higher education is required to become a data scientist so this likely makese sense. In the second plot we do not see much of a relationship. Finally, in the third plot, we find that as experience increases, it is more likely that the person is a software engineer. It is harder to gather an explanation for this last one, however it is possible that data scientist is still a relatively new term so there are people with less experience with that job title.
+PDPs show the impact of utilizing the trained model but artificially altering a feature value in the dataset and holding others constant. Below we plot the PDP for Education, Age and Experience. The first plot suggests that as education increases, the outcome is more likely to be a data scientist. Frequently higher education is required to become a data scientist so this likely makese sense. In the second plot we do not see much of a relationship. Finally, in the third plot, we find that as experience increases, it is more likely that the person is a software engineer. It is harder to gather an explanation for this last one, however it is possible that data scientist is still a relatively new term so there are people with less experience with that job title.
 
 ![plot](https://github.com/kholmes42/MLProjects/blob/main/imgs/pdp.png)
 
