@@ -36,7 +36,7 @@ The below charts show the confusion matrix, precision/recall graph and AUC graph
 
 #### Model Interpretability:
 
-Non-linear models such as ensemble based XGBoost are often called "black-box" models. They do not readily have available simple coefficients like a linear regression model does. However, a sleight of techniques have been introduced to aid with model interpretability. These include Feature Importance, Partial Dependence Plots (PDP) and SHAP values. I examine them each in turn below.
+Non-linear models such as ensemble based XGBoost are often called "black-box" models. They do not readily have available simple coefficients like a linear regression model does. However, a slate of techniques have been introduced to aid with model interpretability. These include Feature Importance, Partial Dependence Plots (PDP) and SHAP values. I examine them each in turn below.
 
 Feature importance is a global metric that allows us to examine what features are having the largest impact on the final output of the model. This is done by measuring the impact that each feature has in the decision process throughout the ensemble. While they do not show the direction that the final values are impacted, intuitive rationale can be gleaned. In the context of classfying a software engineer versus a data scienctist response, R and Math appear at the top. It would be logical to suggest that data scientists are more mathematically inclined than software engineers and also more frequently use statistical programming languages such as R.
 
